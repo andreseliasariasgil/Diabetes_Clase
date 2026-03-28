@@ -1,7 +1,7 @@
 import pickle
 import numpy as np  
 
-with open('C:\DiabetesClass\RFDiabetesv132 (1).pkl', 'rb') as file:
+with open('RFDiabetesv132 (1).pkl', 'rb') as file:
  RF_model2 = pickle.load(file)
 
 labels = ['sano', 'Diabetes']
